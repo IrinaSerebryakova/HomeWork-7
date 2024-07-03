@@ -1,4 +1,5 @@
 public class Main {
+
     public static double countProfitForMonth(double totalSum, double monthPayment, double interestRate){  //вклад с ежемесячным пополнением
         totalSum += monthPayment + ((totalSum/100)*interestRate);
         return totalSum;
